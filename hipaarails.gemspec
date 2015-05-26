@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('rails', '~> 4.1.8')
   s.add_dependency('attr_encrypted', ['~> 1.3.6'])
-  # s.add_dependency('paper_trail', ['~> 2.6.0'])
+  s.add_dependency('paper_trail', ['~> 2.6.0'])
 
   # s.add_development_dependency('activerecord', ['>= 4.0.0'])
   # s.add_development_dependency('datamapper')
