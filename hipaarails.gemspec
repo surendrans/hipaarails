@@ -34,10 +34,10 @@ Gem::Specification.new do |s|
   s.add_dependency('attr_encrypted', ['~> 1.3.6'])
   s.add_dependency('paper_trail', ['~> 2.6.0'])
 
-  # s.add_development_dependency('activerecord', ['>= 4.0.0'])
-  # s.add_development_dependency('datamapper')
-  # s.add_development_dependency('mocha')
-  # s.add_development_dependency('sequel')
-  # s.add_development_dependency('dm-sqlite-adapter')
-  # s.add_development_dependency('sqlite3')
+  s.add_development_dependency('activerecord', ['>= 4.0.0'])
+  s.add_development_dependency('datamapper')
+  s.add_development_dependency('mocha')
+  s.add_development_dependency('sequel')
+  s.add_development_dependency('dm-sqlite-adapter')
+  s.add_development_dependency('sqlite3')
 end
